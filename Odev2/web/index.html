@@ -1,0 +1,80 @@
+<!DOCTYPE html>         <!-- Bu belgenin html5 Sayfası olduğunu tarayıcıya beyan eden kod-->
+<html>                  <!-- Web sayfasının dilini bildirmek için kullandığım HTML sayfaları için kodların kökü olarak bilinen koddur-->
+<head>                  <!--Sayfa başlığı sitili gibi bilgileri tanımladığımız <html></html> tagları arasında kullanılan etikettir -->
+<title>2019123905 Mehmet Narman Odev2</title>    <!-- Web Sayfasının tanımlandığı etikettir-->
+<meta charset="UTF-8">          <!-- Karakter kodlamasının belirtildiği kod parçasıdır-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="style.css" rel="stylesheet" type="text/css" />  <!-- css imize link tagi ile ulasıyoruz.-->
+</head>
+<body>
+<div id="container">        
+  <div id="banner">
+    <h1> OTEL REZERVASYON</h1> <!-- sitemin başlığını h1 tagi ile oluşturdum-->
+  </div>
+
+  <div id="sidebar"> <!-- div imin id sine sidebar diyerek sitemiz sağ  kısmındaki dikey menulerimi oluşturdum-->
+    <div class="menu">
+      <ul> <!-- ul tagi ile sırasız liste oluşturuyoruz.-->
+        <li class="links">SOL MENULERIMIZ</li> <!-- liste ögelerini sıralayla tanımlamam için gereken bir tag dir.-->
+        <li><a href="#">AnaSayfa</a></li>
+        <li><a href="#">ICERIK</a></li>
+        <li><a href="#">SERVISLERIMIZ</a></li>
+        <li><a href="#">KAYNAKLARIMIZ</a></li>
+        <li><a href="#">ILETISIM</a></li>
+        <li class="links">TURLAR</li>
+        <li><a href="#">Italya Turlari</a></li>
+        <li><a href="#">Ispanya Turlari</a></li>
+        <li><a href="#">Portekiz Turlari</a></li>
+        <li><a href="#">Orta Avrupa Turlari</a></li>
+        <li><a href="#">Paris Turlari</a></li>
+       
+        <li class="links">TARIHLERIMIZ</li>
+        <li><a href="#">April 2007</a></li>
+        <li><a href="#">March 2007</a></li>
+        <li><a href="#">Feb 2007</a></li>
+        <li><a href="#">Jan 2007</a></li>
+        <li><a href="#">Dec 2006</a></li>
+        <li><a href="#">Nov 2006</a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="sidebar-b"><!-- div imin id sine sidebar diyerek sitemiz sol  kısmındaki dikey menulerimi oluşturdum-->
+    <div class="menu">
+      <ul>
+        <li class="links">SAĞ MENULERIMIZ</li>
+        <li><a href="#">KIBRIS OTELLERI</a></li><!-- bağlantımızı yönlendirecek sayfamız olmadığından dolayı tıklandığı zaman kendine döndermek için # koyduk-->
+        <li><a href="#">BAFRA OTELLERI</a></li>
+        <li><a href="#">GIRNE OTELLERI</a></li>
+        <li><a href="#">MAGOSA OTELLERI</a> </li>
+        <li><a href="#">LEFKOSA OTELLERI</a></li>
+        
+        <li class="links">YURTDISI OTELLERI</li>
+        <li><a href="#">PARIS OTELLERI</a></li>
+        <li><a href="#">ROMA OTELLERI</a></li>
+        <li><a href="#">VIYANA OTELLERI</a></li>
+        
+        <li class="links">ICERIKLER</li>
+        <li><a href="#">ARAC KIRALAMA</a></li>
+        <li><a href="#">GEMI TURU</a></li>
+        <li><a href="#">KAYAK OTELLERI</a></li>
+        <li><a href="#">BUNGALOV EVLERI</a></li>
+        
+      </ul>
+    </div>
+  </div>
+  <div id="content"> <!-- burda div ime content id si verdim. Bu id sayfamın orta kısmındaki içerikleri kapsayan alan anlamına gelmektedir.-->
+    <h1> <span style="font-weight:bold; color:#ACAF2C;">Sayfama Hosgeldiniz</span> </h1> <!--Yazıma stil vermek amaçlı span tagini kullandım, color özelliğiyle yazıma renk verdim.-->
+    <img src="otel.PNG" style="width: 350px"> </img><!--başlığımın altına resim yerleştirdim.-->
+    <h1>Oteller</h1>
+    <p>Etsturun sundugu Balayi Otellerinden Antalya Otellerine kadar farkli ozelliklere sahip yuzlerce tesisten biri sizin aradiginiz ozelliklere sahip olabilir. Tatil denildiginde ilk akla gelen cogu zaman konforlu bir otel olur.
+        Farkli zevklere ve ilgi alanlarina gore hizmetler sunan bu oteller, hem her butceye uygun fiyatlari hem de bulunduklari bolge itibariyle oldukca degisik secenekler sunarlar.</p> 
+    <p class="post"> <a href="#" class="readmore">Daha fazlasi</a> <a href="#" class="comments">Yorumlar (3)</a> <span class="date">Nisan 15, 2021</span> </p>
+    <h1>Yurt Icinde Konaklama</h1>
+    <p>Her seyin sizin icin dusunuldugu konforlu bir tatil koyu, farkli mimarisi ve ozgun tasarimiyla butik hizmet veren kucuk bir otel, sicak ve ekonomik bir tatil atmosferi sunan sirin bir pansiyon ya da stresli is seyahatlerinde merkezi konumu ve hizmeti ile rahatlik sunan bir sehir oteli.
+        Hepsi ve daha fazlasi Etsturun Yurt Ici Otelleri sayfasinda sizi bekliyor. Oda, Oda-Kahvalti, Yarim Pansiyon, Tam Pansiyon, Her Sey Dahil ve Ultra Her Sey Dahil gibi farkli konseptlerde, luks ya da ekonomik konaklama secenekleri, Etsturda kolayca gerceklestirebileceginiz rezervasyon islemi ile sizi agirlamaya hazir.</p>
+    <p class="post"> <a href="#" class="readmore">Daha fazlasi</a> <a href="#" class="comments">Yorumlar (3)</a> <span class="date">Nisan 15, 2021</span> </p>
+  </div>
+  <div id="footer"> <a href="#">anasayfa</a> | <a href="#">iletisim</a> | | <a href="http://jigsaw.w3.org/css-validator">css</a> | &copy; 2007 Anyone | Design by Mehmet NARMAN</a> |</div>
+</div>
+</body>
+</html>
